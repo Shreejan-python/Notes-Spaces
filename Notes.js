@@ -36,7 +36,7 @@ function showing_notes() {
                         <h5 class="card-title">Note ${index + 1}</h5>
                      <p class="card-text">${element}</p>
                     <button id="$(index)" onclick="deleteNote(this.id)" class="btn btn-primary">Delete note</button>
-                    <button id="$(index)" onclick="importantNote(this.id)" class="btn btn-primary">Mark as Important</button>
+ 
 
                 </div>
                 </div>
